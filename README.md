@@ -54,4 +54,44 @@ You don't need to use eject unless you're ready for it. For small and medium-siz
 
 ### 1. Clone the Repository:
 ```bash
-git clone https://github.com/<your-username>/slate-dashboard.git
+git clone https://github.com/Lunar10/slate-dashboard.git
+```
+2. Install Dependencies:
+Navigate to the project folder and run:
+
+```bash
+
+npm install
+```
+3. Running the Project Locally:
+To start the development server, run:
+
+```bash
+
+npm start
+```
+The application will open in your default browser at http://localhost:3000.
+
+4. Building for Production:
+To build the project for production, use the following command:
+
+```bash
+
+npm run build
+```
+This will generate an optimized production build in the build/ folder.
+
+Folder Structure
+The project is organized as follows:
+
+#### `public` Static files (e.g., index.html, favicon.ico).
+#### `src` Source code for React components, styles, and assets.
+#### `components` Reusable React components for the dashboard.
+#### `styles` CSS/SASS or styled-components for styling.
+#### `utils` Utility functions like API calls or state management helpers.
+#### `Dependencies`
+#### `React` Core React library
+#### `React-dom` Provides DOM bindings for React
+#### `React-router-dom` For routing between views
+#### `axios` For making API calls
+#### `chart.js` A charting library for displaying dynamic charts
